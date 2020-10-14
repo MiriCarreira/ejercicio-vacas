@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+main{
+    background-color: orange;
+}
+
+body>header {
+    background-image: url(./img/download.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 56.25vw;
+    width:100vw;
+
+}
+article {
+    width: 300px;
+    background-color: black;
+    color: white;
+}
+
+img {
+    
+    width:100%;
+}
+
+
+
+article>header {
+    outline: 1px solid red;
+}
+
+article>header {
+    width:300px;
+}
+
+figure>img {
+    width:300px;
+}
